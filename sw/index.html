@@ -346,7 +346,7 @@ require(["jquery", "jquery-ui/core"], function($, jqueryUICore) {
         titrebidonpropre = titrebidon.replace(/\[(.+?)\]/g, function(m0, m1) {
             return mots[m1]
         })
-        var episode = "<!-- Episode -->" + numbidon + " : " + titrebidonpropre.enCap();
+        var episode = "<!-- Episode -->" /* + numbidon + " : " */ + titrebidonpropre.enCap();
 
         /* on envoie */
         $("#numep").html("")
