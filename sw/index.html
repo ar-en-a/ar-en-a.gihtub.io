@@ -102,10 +102,8 @@
         </div>
     </div>
     <div class="resultat">
-        <div id="numep">Episode XII : La contre-attaque d'une escouade de clones renégats</div>
-        <div id="synopsis">
-         <p>Le temps du péril a commencé pour les maquisards. Même s'ils ont pu détruire la Bouboule de la Mort, l'armée impériale les a chassés de leur base secrète et les poursuit à travers la galaxie.</p><p>Après avoir échappé à la redoutable escadrille cosmique d'une escouade de clones renégats, un groupe de résistants mené par Sheev Jinn a établi une nouvelle base secrète sur Abba, la lointaine planète gazeuse. Plus tard, il commence son entraînement jedi avec Kermit, sympathique petite créature verte.</p><p>Garth Algar, le bras droit de Ventress, hanté par l'idée de retrouver le jeune Sheev, lance des milliers de sondes téléguidées aux confins de l'espace. A l’issue d’un affrontement lors duquel Sheev perd la face, il apprend que Garth Algar est son frère.</p>
-        </div>
+        <div id="numep"><!-- le titre --></div>
+        <div id="synopsis"><!-- le texte --></div>
     </div>
     <div class="classiqueresultat passelect" style="display:none;">
         <p id="start">Il n'y a pas bien longtemps, dans un canton proche, très proche...</p>
@@ -197,10 +195,10 @@
             </svg>
         </div>
         <div id="titles">
-            <div id="classiquesynopsis"><p style="text-align:center;">Episode XII <br><span style="text-transform:uppercase;"> La contre-attaque d'une escouade de clones renégats</span></p><p>Le temps du péril a commencé pour les maquisards. Même s'ils ont pu détruire la Bouboule de la Mort, l'armée impériale les a chassés de leur base secrète et les poursuit à travers la galaxie.</p><p>Après avoir échappé à la redoutable escadrille cosmique d'une escouade de clones renégats, un groupe de résistants mené par Sheev Jinn a établi une nouvelle base secrète sur Abba, la lointaine planète gazeuse. Plus tard, il commence son entraînement jedi avec Kermit, sympathique petite créature verte.</p><p>Garth Algar, le bras droit de Ventress, hanté par l'idée de retrouver le jeune Sheev, lance des milliers de sondes téléguidées aux confins de l'espace. A l’issue d’un affrontement lors duquel Sheev perd la face, il apprend que Garth Algar est son frère.</p></div>
+            <div id="classiquesynopsis"><!-- le texte --></div>
         </div>
     </div>
-    <div class="source">Musique d'ouverture composée par John Williams, ©&nbsp;Disney.</div>
+    <div class="source"><smaller></smaller>Musique d'ouverture composée par John Williams, ©&nbsp;Disney.</smaller></div>
 </div>
 <script type="text/javascript">
 require(["jquery", "jquery-ui/core"], function($, jqueryUICore) {
@@ -286,7 +284,7 @@ require(["jquery", "jquery-ui/core"], function($, jqueryUICore) {
 
     var SacreJohn = document.getElementById('audio');
     var combien = Object.keys(phrases).length;
-    var episoderomain = ["X", "XI", "XII"];
+    var episoderomain = ["X"];
 
     function petitRemplacement(h, i) {
         numrep = remplacements[h].length
@@ -348,10 +346,10 @@ require(["jquery", "jquery-ui/core"], function($, jqueryUICore) {
         titrebidonpropre = titrebidon.replace(/\[(.+?)\]/g, function(m0, m1) {
             return mots[m1]
         })
-        var episode = "Episode " + numbidon + " : " + titrebidonpropre.enCap();
+        var episode = "<!-- Episode -->" + numbidon + " : " + titrebidonpropre.enCap();
 
         /* on envoie */
-        $("#numep").html(episode)
+        $("#numep").html("")
         $("#synopsis").html(enCapitale(phrasepropre))
         $("#classiquesynopsis").html("<p style=\"text-align:center;\">" + episode.enCap().replace(":", "<br><span style=\"text-transform:uppercase;\">") + "</span></p>" + enCapitale(phrasepropre))
     };
