@@ -349,7 +349,7 @@ require(["jquery", "jquery-ui/core"], function($, jqueryUICore) {
         var episode = "<!-- Episode -->" /* + numbidon + " : " */ + titrebidonpropre.enCap();
 
         /* on envoie */
-        $("#numep").html("")
+        $("#numep").html(episode)
         $("#synopsis").html(enCapitale(phrasepropre))
         $("#classiquesynopsis").html("<p style=\"text-align:center;\">" + episode.enCap().replace(":", "<br><span style=\"text-transform:uppercase;\">") + "</span></p>" + enCapitale(phrasepropre))
     };
