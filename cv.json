@@ -1,1 +1,116 @@
- 
+[
+    {
+        "title": "PROJET",
+        "desc": "Recherche tout type de mission utilisant mes comp&eacute;tences (Maintenance, D&eacute;veloppement, autres)"
+    },
+    {
+        "title": "FORMATION",
+        "exp": [
+            {
+                "dates": "1981-1984",
+                "emp": "&Eacute;COLE SUP&Eacute;RIEURE DE COMMERCE LE HAVRE/CAEN (&Eacute;COLE de MANAGEMENT de NORMANDIE)",
+                "desc": "D.E.S.C.A.F. Dipl&ocirc;me d’&Eacute;tudes Sup&eacute;rieures en Comptabilit&eacute;, Administration et Finances"
+            }
+        ]
+    },
+    {
+        "title": "CURSUS PROFESSIONNEL",
+        "exp": [
+            {
+                "dates": "1985-1987",
+                "emp": "ROUSSEL UCLAF (SANOFI)",
+                "desc": "Ing&eacute;nieur &eacute;tudes",
+                "env": "IBM Mainframe (MVS), Cobol, JCL, SQL, VSAM, DB2, DL1, CICS",
+                "ul": [
+                    {
+                        "ul": [
+                            "Maintenance et d&eacute;veloppement dans les domaines de la paie, participation salariale, gestion des immobilisations, facturation"
+                        ]
+                    }
+                ]
+            },
+            {
+                "dates": "1988-1996",
+                "emp": "RESSOURCES INFORMATIQUES BANCAIRES",
+                "desc": "Consultant assurant diverses missions chez :",
+                "env": "IBM Mainframe (MVS), principalement Cobol, JCL, SQL, VSAM, DB2, CICS (LU 6.2), CFT (Cross File Transfert); OS/2 : CICS, DBM, SNA, Easel; Windows : PowerBuilder; MERISE, SDM/S",
+                "ul": [
+                    {
+                        "h3": "SOVAC (G.E. FINANCE)",
+                        "ul": [
+                            "Refonte du fichier client sous DB2 (3 millions d’entr&eacute;es)"
+                        ]
+                    },
+                    {
+                        "h3": "PARIBAS (BNP PARIBAS)",
+                        "ul": [
+                            "Moyens de paiement",
+                            "Mise en place du SIT (Système Interbancaire de T&eacute;l&eacute;compensation) en remplacement de l’OC (Ordinateur de Compensation)",
+                            "Prise en charge des remises magn&eacute;tiques clientèle (Virts, Prlvts, Effets de commerce) sur divers supports"
+                        ]
+                    },
+                    {
+                        "h3": "RENAULT CR&Eacute;DIT INTERNATIONAL",
+                        "ul": [
+                            "Mise en place du SIT (Système Interbancaire de T&eacute;l&eacute;compensation)"
+                        ]
+                    },
+                    {
+                        "h3": "PARIBAS M&eacute;tier Titres (BNP PARIBAS SECURITIES SERVICES)",
+                        "ul": [
+                            "Refonte de l’application Private Banking de VM vers MVS, architecture Client/Serveur (OS/2)",
+                            "Participation aux groupes de travail sur le downsizing/rightsizing de la B.U. M&eacute;tier Titres",
+                            "Reprise de l’activit&eacute; Global Custody de J.P. MORGAN (PBLink), recherche d’un op&eacute;rateur t&eacute;l&eacute;com X25 monde (SITA depuis int&eacute;gr&eacute; à ORANGE)"
+                        ]
+                    }
+                ]
+            },
+            {
+                "dates": "1997-1999",
+                "emp": "CR&Eacute;DIT COMMERCIAL DE FRANCE (HSBC)",
+                "desc": "RESPONSABLE de DOMAINE",
+                "misc": "Dans un contexte de passages à l’EURO dès le 01.01.1999 et à l’an 2000",
+                "env": "IBM Mainframe (MVS, AIX); Windows : NATSTAR",
+                "ul": [
+                    {
+                        "h3": "AGENCE",
+                        "ul": [
+                            "D&eacute;ploiement d’une nouvelle architecture mat&eacute;rielle (200 serveurs, 1500 postes de travail) en remplacement du mat&eacute;riel NIXDORF obsolète",
+                            "Migration des serveurs UNIX SVR4 Olivetti vers Windows NT"
+                        ]
+                    },
+                    {
+                        "h3": "PRIVATE BANKING",
+                        "ul": [
+                            "Cr&eacute;ation du domaine",
+                            "MRecadrage du projet de migration de la solution FRF vers EUR. Arbitrages sur budgets, p&eacute;rimètres fonctionnels et architectures mat&eacute;rielles cibles (serveurs AIX [dev, recette, pre-prod et prod])",
+                            "Après bascule EUR au 01.01.1999, dans le cadre de la migration de la conservation Titres CCF vers la Caisse centrale des Banques Populaires : analyse d’impact"
+                        ]
+                    }
+                ]
+            },
+            {
+                "dates": "1997-1999",
+                "emp": "FORTIS BANQUE FRANCE (BNP PARIBAS)",
+                "desc": "RESPONSABLE de DOMAINE",
+                "misc": "Dans un contexte de cr&eacute;ation du groupe FORTIS (BE/NL) avec pour vaisseau amiral la 1ère banque belge (G&eacute;n&eacute;rale de Banque) et la fusion de plusieurs banques françaises donnant naissance à Fortis Banque France",
+                "env": "IBM AIX, Cobol, ORACLE, MQ/Series",
+                "ul": [
+                    {
+                        "h3": "MOYENS de PAIEMENT",
+                        "ul": [
+                            "Fluidification (Straight Through Processing [STP]) et webification (web enabling) des processus li&eacute;s aux moyens de paiement (Virts, Prlvts, Effets de commerce, SWIFT) en conformit&eacute; avec la strat&eacute;gie groupe",
+                            "Suivi du r&eacute;glementaire li&eacute; au domaine dont (i) R&eacute;forme de place sur la compensation chèque (Echange Image Chèque [EIC]), (ii) Migration Messagerie SWIFT, (iii) Virement commercial [VCOM]"
+                        ]
+                    },
+                    {
+                        "h3": "CORRESPONDANT FRANCE",
+                        "ul": [
+                            "Suivi de plusieurs projets initi&eacute;s par le groupe en Belgique concernant les B.U. IPS [Individuals, Professionals, Small enterprises], MEC [Middle Enterprises &amp; Corporates] et ad&eacute;quation aux usages et besoins locaux (Cr&eacute;dit documentaire, STP, Isabel, …)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
